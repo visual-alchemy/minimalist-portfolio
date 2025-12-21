@@ -44,9 +44,8 @@ export default function Home() {
             <button
               key={section}
               onClick={() => document.getElementById(section)?.scrollIntoView({ behavior: "smooth" })}
-              className={`w-2 h-8 rounded-full transition-all duration-500 ${
-                activeSection === section ? "bg-foreground" : "bg-muted-foreground/30 hover:bg-muted-foreground/60"
-              }`}
+              className={`w-2 h-8 rounded-full transition-all duration-500 ${activeSection === section ? "bg-foreground" : "bg-muted-foreground/30 hover:bg-muted-foreground/60"
+                }`}
               aria-label={`Navigate to ${section}`}
             />
           ))}
@@ -344,9 +343,9 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { name: "Resume", handle: "bit.ly/eldyresume", url: "https://bit.ly/eldyresume" },
-                  { name: "Freepik", handle: "Contributor", url: "https://freepik.com" },
-                  { name: "Canva", handle: "Creator", url: "https://canva.com" },
-                  { name: "LinkedIn", handle: "Connect", url: "#" },
+                  { name: "Freepik", handle: "@gh0st", url: "https://www.freepik.com/author/gh0st" },
+                  { name: "LinkedIn", handle: "Connect", url: "https://www.linkedin.com/in/eldy-baghaskara-0b492510b/" },
+                  { name: "GitHub", handle: "@visual-alchemy", url: "https://github.com/visual-alchemy" },
                 ].map((social) => (
                   <Link
                     key={social.name}
