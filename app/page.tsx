@@ -342,7 +342,7 @@ export default function Home() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { name: "Resume", handle: "bit.ly/eldyresume", url: "https://bit.ly/eldyresume" },
+                  { name: "Resume", handle: "bit.ly/eldyresume", url: "https://eldyreynanda.notion.site/Eldy-Reynanda-Baghaskara-5bc47b8efc584361a9e58618e7c4d88f" },
                   { name: "Freepik", handle: "@gh0st", url: "https://www.freepik.com/author/gh0st" },
                   { name: "LinkedIn", handle: "Connect", url: "https://www.linkedin.com/in/eldy-baghaskara-0b492510b/" },
                   { name: "GitHub", handle: "@visual-alchemy", url: "https://github.com/visual-alchemy" },
