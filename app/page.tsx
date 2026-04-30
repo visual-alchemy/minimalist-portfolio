@@ -132,8 +132,8 @@ export default function Home() {
                   role: "Livestreaming Engineer",
                   company: "Vidio Dot Com",
                   description:
-                    "Built web-based monitoring decoder, HLS player with React.js, and SRT Gateway with Golang. Managing SRT-based programming domestically and internationally.",
-                  tech: ["SRT", "React.js", "Golang", "AWS MediaLive"],
+                    "Architected Blackgate, an open-source high-performance SRT Gateway built with Elixir/Phoenix, GStreamer(C), and React 18 + Vite. Developed HLS Multiviewer, a web-based multi-stream monitoring dashboard. Managing SRT-based programming domestically and internationally.",
+                  tech: ["SRT", "Elixir/Phoenix", "GStreamer", "React 18", "AWS MediaLive"],
                 },
                 {
                   year: "2021",
@@ -154,8 +154,8 @@ export default function Home() {
                   role: "NOC Technician",
                   company: "Global Informasi Bermutu",
                   description:
-                    "Developed UDP scheme for web-based monitoring. Configured encoders, decoders, and managed international broadcast transmissions via satellite.",
-                  tech: ["UDP", "Encoder/Decoder", "Satellite"],
+                    "Developed UDP scheme for web-based monitoring, still in use at the company. Configured encoders and decoders for each event. Directed international broadcasts to satellites and aimed antennas to meet event requirements.",
+                  tech: ["UDP", "Encoder/Decoder", "Satellite", "Antenna"],
                 },
               ].map((job, index) => (
                 <div
@@ -205,7 +205,7 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="text-sm text-muted-foreground font-mono">EXPERT</div>
                 <div className="space-y-4">
-                  {["Livestreaming", "OBS", "Wowza", "Wirecast"].map((skill) => (
+                  {["Livestreaming", "OBS", "Wowza"].map((skill) => (
                     <div
                       key={skill}
                       className="group p-4 border border-border rounded-lg hover:border-muted-foreground/50 transition-all duration-300"
@@ -227,7 +227,7 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="text-sm text-muted-foreground font-mono">ADVANCED</div>
                 <div className="space-y-4">
-                  {["Linux", "FFmpeg", "Docker", "Amazon Web Service", "Adobe Illustrator", "Adobe Photoshop"].map(
+                  {["Linux", "FFmpeg", "Docker", "Amazon Web Service", "Wirecast", "Adobe Illustrator", "Adobe Photoshop"].map(
                     (skill) => (
                       <div
                         key={skill}
